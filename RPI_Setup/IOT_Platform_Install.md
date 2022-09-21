@@ -149,6 +149,25 @@ Towards the bottom of the log (above our cursor), there should be a line saying 
     sudo dietpi-services restart node-red
     ```
 
+- In the upper right hand corner of the screen, select the three bars dropdown menu. From here, select *Manage Palette*. You can also use keystrokes "alt+p".
+![pallete selection](./images/palette-selection.png)
+
+- Under "palette" select install and search for "node-red-contrib-postgresql".
+
+- Click install, then click install again. The program will note when the package is installed.
+
+- Back on the main page, on the left hand side, filter for node "postgresql". Drag a postgres node into the wave board.
+
+- Double click on the node to edit it. Change the following:
+    - Give the node a name.
+    - Configure a new server instance, give that a name.
+
+- Connect more nodes and wire them as follows:
+![wave flow](./images/wave-flow.png)
+    - trigger
+    - template
+    - debug
+    The above nodes will need to be dragged in.
 
 
 
